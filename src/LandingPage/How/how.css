@@ -1,0 +1,28 @@
+.How {
+  background-image: linear-gradient(
+      rgba(192, 192, 192, 0.2),
+      rgba(192, 192, 192, 0.1)
+    ),
+    url(/public/images/bathsink.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 250px;
+}
+.howWrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.howTitle {
+  padding-top: 10px;
+  text-align: left;
+  text-decoration: overline #90caf9 0.2rem;
+}
+.howPart {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}

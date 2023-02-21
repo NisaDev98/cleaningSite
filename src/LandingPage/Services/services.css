@@ -1,0 +1,70 @@
+.Services {
+  padding-top: 20px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.5rem 5em;
+  box-sizing: content-box;
+}
+.servicesWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.servicesTitle {
+  text-align: left;
+  padding-top: 10px;
+}
+.servicesTitle h5 {
+  text-decoration: overline #90caf9 0.2rem;
+}
+/* .servicesTitle h1 {
+  font-size: 46px;
+} */
+.servicesTypes {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  padding-top: 30px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 20px;
+}
+.service {
+  flex: 1 1 25%;
+  text-align: left;
+  padding: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.service p {
+  color: gray;
+  font-weight: 300;
+  padding-top: 0.5rem;
+}
+.service h3 {
+  padding-top: none;
+  font-weight: 500;
+}
+.serviceImg img {
+  max-width: 100%;
+  display: block;
+}
+.service:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+@media (max-width: 900px) {
+  .servicesTypes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .Services {
+    padding: 0.2rem 2rem;
+  }
+  .servicesTypes {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

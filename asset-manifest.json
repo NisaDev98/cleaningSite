@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/cleaningSite/static/css/main.4acff7e0.css",
+    "main.js": "/cleaningSite/static/js/main.99fdcb71.js",
+    "static/js/787.36a92081.chunk.js": "/cleaningSite/static/js/787.36a92081.chunk.js",
+    "static/media/hero1.jpg": "/cleaningSite/static/media/hero1.e798993f0742da812b2c.jpg",
+    "static/media/bathsink.jpg": "/cleaningSite/static/media/bathsink.ded91ddfbc28576c0340.jpg",
+    "static/media/tissue.jpg": "/cleaningSite/static/media/tissue.288fc0d22837437e7324.jpg",
+    "index.html": "/cleaningSite/index.html",
+    "main.4acff7e0.css.map": "/cleaningSite/static/css/main.4acff7e0.css.map",
+    "main.99fdcb71.js.map": "/cleaningSite/static/js/main.99fdcb71.js.map",
+    "787.36a92081.chunk.js.map": "/cleaningSite/static/js/787.36a92081.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4acff7e0.css",
+    "static/js/main.99fdcb71.js"
+  ]
+}
